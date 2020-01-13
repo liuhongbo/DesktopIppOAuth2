@@ -2,22 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>DesktopIppOAuth2</id>
-        <version>1.0.0.0</version>
+        <version>1.0.1.0</version>
         <title>DesktopIppOAuth2</title>
         <authors>liuhongbo@live.com</authors>
-        <owners>liuhongbo@live.com</owners>
-        <licenseUrl>https://github.com/liuhongbo/DesktopIppOAuth2</licenseUrl>
+        <owners>liuhongbo@live.com</owners>        
 		<license type="expression">MIT</license>
         <projectUrl>https://github.com/liuhongbo/DesktopIppOAuth2</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A Library for desktop application to get the OAuth 2.0 Access Token for Intuit Partner Platform (QuickBooks Online) Rest APIs.</description>
         <summary>It uses a OWIN selfhost web api 2.0 to receive the OAuth callback so that you don't need to implement a separated web site just for receiving the tokens.</summary>
-		<releaseNotes>version 1.0</releaseNotes>
+		<releaseNotes>version 1.01 upgrade the packages</releaseNotes>
         <copyright>Copyright ©  2020 liuhongbo@live.com</copyright>
         <dependencies>
 			<group targetFramework="net461">
-				<dependency id="IppDotNetSdkForQuickBooksApiV3" version="9.6.1" />
-				<dependency id="Microsoft.AspNet.WebApi.OwinSelfHost" version="5.1.1" />
+				<dependency id="IppDotNetSdkForQuickBooksApiV3" version="10.0.0" />
+				<dependency id="Microsoft.AspNet.WebApi.OwinSelfHost" version="5.2.7" />
 			</group>			
         </dependencies>
 	<tags>Intuit IPP QuickBooks OAuth2 Desktop</tags>

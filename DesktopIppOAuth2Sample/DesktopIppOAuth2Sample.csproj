@@ -12,10 +12,11 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
-    <RestorePackages>true</RestorePackages>
+    <RestorePackages>false</RestorePackages>
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -37,50 +38,50 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Intuit.Ipp.Core, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Core.dll</HintPath>
+    <Reference Include="Intuit.Ipp.Core, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Core.dll</HintPath>
     </Reference>
     <Reference Include="Intuit.Ipp.Data, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Data.dll</HintPath>
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.DataService, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.DataService.dll</HintPath>
+    <Reference Include="Intuit.Ipp.DataService, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.DataService.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.Diagnostics, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Diagnostics.dll</HintPath>
+    <Reference Include="Intuit.Ipp.Diagnostics, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Diagnostics.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.EntitlementService, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.EntitlementService.dll</HintPath>
+    <Reference Include="Intuit.Ipp.EntitlementService, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.EntitlementService.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.Exception, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Exception.dll</HintPath>
+    <Reference Include="Intuit.Ipp.Exception, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Exception.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.GlobalTaxService, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.GlobalTaxService.dll</HintPath>
+    <Reference Include="Intuit.Ipp.GlobalTaxService, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.GlobalTaxService.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.OAuth2PlatformClient, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.OAuth2PlatformClient.dll</HintPath>
+    <Reference Include="Intuit.Ipp.OAuth2PlatformClient, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.OAuth2PlatformClient.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.QueryFilter, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.QueryFilter.dll</HintPath>
+    <Reference Include="Intuit.Ipp.QueryFilter, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.QueryFilter.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.ReportService, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.ReportService.dll</HintPath>
+    <Reference Include="Intuit.Ipp.ReportService, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.ReportService.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.Retry, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Retry.dll</HintPath>
+    <Reference Include="Intuit.Ipp.Retry, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Retry.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.Security, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Security.dll</HintPath>
+    <Reference Include="Intuit.Ipp.Security, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Security.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.Utility, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.Utility.dll</HintPath>
+    <Reference Include="Intuit.Ipp.Utility, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.Utility.dll</HintPath>
     </Reference>
-    <Reference Include="Intuit.Ipp.WebHooksService, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\Intuit.Ipp.WebHooksService.dll</HintPath>
+    <Reference Include="Intuit.Ipp.WebHooksService, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\Intuit.Ipp.WebHooksService.dll</HintPath>
     </Reference>
-    <Reference Include="IppDotNetSdkForQuickBooksApiV3, Version=9.6.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.9.6.1\lib\net461\IppDotNetSdkForQuickBooksApiV3.dll</HintPath>
+    <Reference Include="IppDotNetSdkForQuickBooksApiV3, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\IppDotNetSdkForQuickBooksApiV3.10.0.0\lib\net461\IppDotNetSdkForQuickBooksApiV3.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Azure.Documents.Client, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Azure.DocumentDB.2.1.2\lib\net461\Microsoft.Azure.Documents.Client.dll</HintPath>
@@ -148,7 +149,7 @@
       <HintPath>..\packages\Microsoft.Owin.Hosting.2.0.2\lib\net45\Microsoft.Owin.Hosting.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -213,9 +214,8 @@
     </Reference>
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.Formatting, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.1.1\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http.WinHttpHandler, Version=4.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Net.Http.WinHttpHandler.4.5.0\lib\net461\System.Net.Http.WinHttpHandler.dll</HintPath>
@@ -242,13 +242,11 @@
     </Reference>
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Transactions" />
-    <Reference Include="System.Web.Http, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.1.1\lib\net45\System.Web.Http.dll</HintPath>
+    <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Http.Owin, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.1.1\lib\net45\System.Web.Http.Owin.dll</HintPath>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.7\lib\net45\System.Web.Http.Owin.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
